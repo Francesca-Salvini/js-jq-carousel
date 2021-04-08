@@ -5,3 +5,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+img {
+    width: 100%;
+    display: none;
+    padding: 4%;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+}
+
+ img.active {
+    display: block;
+}
+
+.arrow i {
+    font-size: 40px;
+    cursor: pointer;
+}
