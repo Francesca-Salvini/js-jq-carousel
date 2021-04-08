@@ -8,7 +8,7 @@
 
 img {
     width: 100%;
-    display: none;
+    display: block;
     padding: 4%;
 }
 
@@ -22,7 +22,11 @@ img {
     align-items: center;
 }
 
- img.active {
+.pics img {
+    display: none;
+}
+
+img.active {
     display: block;
 }
 
@@ -30,3 +34,4 @@ img {
     font-size: 40px;
     cursor: pointer;
 }
+
